@@ -31,5 +31,9 @@ console.log(area1);
 //Create a function and then calling at the same time
 ((input) => {
     console.log("IIFE Function " + input);
-})("Hello From IIFE");
+})("Hello From Justin");
+
+((number) => {
+    console.log((number % 2 === 0));
+})(8);
 
